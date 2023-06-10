@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: inter-M;
+}
+html, body {
+    width: 100%;
+    height: 100%;
+}
+#box{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(10, 59, 75);
+    z-index: 0;
+}
+#box1{
+    width: 100%;
+    height: 100vh;
+    background-color: lightblue;
+    z-index: 9;
+    position: relative;
+    background-image: url(https://assets.website-files.com/6387802e3461137e709a8475/63b810c0936b24f8538aeff7_illustr-01-p-500.webp);
+}
+#box2{
+    width: 100%;
+    height: 100vh;
+    background-color: lightcoral;
+    z-index: 99;
+}
+#box3{
+    width: 100%;
+    height: 100vh;
+    background-color: lightgreen;
+    z-index: 999;
+}
